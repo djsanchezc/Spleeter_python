@@ -1,5 +1,9 @@
+Cython
 Flask
 Flask-CORS
 spleeter
 tensorflow
-numpy
+numpy==1.23.0
+pip>=24.2
+setuptools>=67.0
+wheel
