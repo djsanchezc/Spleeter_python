@@ -3,6 +3,6 @@ services:
     name: flask-spleeter-app
     env: python
     pythonVersion: 3.8
-    buildCommand: "apt-get update && apt-get install -y build-essential && pip install -r requirements.txt"
+    buildCommand: "apt-get update && apt-get install -y build-essential && pip install --upgrade pip && pip install -r requirements.txt"
     startCommand: "gunicorn app:app"  # Aquí `app` es el nombre de tu archivo principal (sin la extensión .py)
     plan: free  # Cambia a 'starter' o 'pro' si tienes un plan superior
