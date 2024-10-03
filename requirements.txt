@@ -1,3 +1,5 @@
 Flask
 Flask-CORS
 spleeter
+tensorflow
+numpy
