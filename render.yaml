@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-spleeter-app
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"  # Aquí `app` es el nombre de tu archivo principal (sin la extensión .py)
+    plan: free  # Cambia a 'starter' o 'pro' si tienes un plan superior
