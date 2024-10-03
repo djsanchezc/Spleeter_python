@@ -1,3 +1,4 @@
+pip
 Flask
 flask-cors
 spleeter
