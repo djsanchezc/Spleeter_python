@@ -2,7 +2,7 @@ pip
 setuptools
 wheel
 gunicorn
-Flask==2.3.2
-flask-cors==3.0.10
-spleeter==2.2.2
-numpy==1.24.2 
+Flask
+flask-cors
+spleeter
+numpy
